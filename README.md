@@ -2,6 +2,17 @@
 
 # starter-app
 
+The focus of this repo is to offer as start point for multipurpose web apps based on login & crud operations over resources.
+
+For a quick start:
+
+```bash
+git clone https://github.com/haicku/starter-app
+cd starter-app
+npm install
+npm run server
+```
+
 ## Getting Started
 
 #### Prerequisites
