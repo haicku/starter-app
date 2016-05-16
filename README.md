@@ -73,11 +73,13 @@ Here are some interesting ideas, that you'll find in the code structure:
   - [Semantic Web](semantic), rely on browser for view rendering
   - [*T*est *D*riven *D*evelopment](tdd)
   - As many as I've found coherent, from the [johnpapa/angular-styleguide](angular-sg)
+  - Some implementation solutions are extracted from [waitandeat](waitandeat)
 
 [angular-sg]: https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
 [pe]: https://en.wikipedia.org/wiki/Progressive_enhancement
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
 [semantic]: https://en.wikipedia.org/wiki/Semantic_Web
+[waitandeat]: https://github.com/gordonmzhu/angular-course-demo-app-v2
 
 [git]: http://git-scm.com/
 [bower]: http://bower.io
