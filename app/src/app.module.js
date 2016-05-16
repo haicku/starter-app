@@ -10,6 +10,7 @@
       'firebase',
 
       // Custom modules.
+      'app.mocks',
       'app.auth',
       'app.core'
     ])
