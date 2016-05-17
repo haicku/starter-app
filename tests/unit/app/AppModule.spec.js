@@ -8,7 +8,7 @@ describe('app', function () {
 
   it('should be able to connect firebase', inject(function($firebaseObject){
 
-    var ref = new Firebase("https://fiery-fire-1774.firebaseio.com/data");
+    var ref = new Firebase("https://haicku-starter-app.firebaseio.com/data");
 
     var syncObject = $firebaseObject(ref);
 

@@ -4,8 +4,24 @@ module.exports = function (config) {
     basePath: '../',
 
     files: [
-      'node_modules/angular/angular.js',
-      'node_modules/angular-mocks/angular-mocks.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js',
+        'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js',
+        'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-mocks.js',
+
+      'https://cdn.firebase.com/js/client/2.2.4/firebase.js',
+      'https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js',
+
+      'app/src/core/core.module.js',
+        'app/src/core/constants.js',
+
+      'app/src/auth/auth.module.js',
+        'app/src/auth/auth.config.js',
+        'app/src/auth/auth.controller.js',
+        'app/src/auth/auth.service.js',
+
+      'app/src/messages/messages.module.js',
+        'app/src/messages/messages.config.js',
+        'app/src/messages/messages.controller.js',
 
       'app/src/app.module.js',
 
@@ -26,11 +42,10 @@ module.exports = function (config) {
     // /TDD
 
     frameworks: ['jasmine'],
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['Chrome'],
 
     plugins: [
       'karma-chrome-launcher',
-      'karma-firefox-launcher',
       'karma-jasmine'
     ]
 

@@ -10,7 +10,7 @@
       'firebase',
 
       // Custom modules.
-      'app.mocks',
+      'app.messages',
       'app.auth',
       'app.core'
     ])
@@ -27,7 +27,7 @@
     });
 
     //core
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
     $routeProvider.when('/notfound', {
       templateUrl: 'app/src/core/notfound.html'
     });

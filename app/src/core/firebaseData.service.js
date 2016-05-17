@@ -14,7 +14,7 @@
       root: root,
       users: root.child('users'),
       emails: root.child('emails'),
-      textMessages: root.child('textMessages')
+      messages: root.child('messages')
     };
 
     return service;

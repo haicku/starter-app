@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
   <head>
     <title>Haicku - Starter App</title>
-
+    <base href="/starter-app/"><!-- required for html5mode -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <base href="/starter-app/"><!-- required for html5mode -->
+
 
     <!-- customize css here -->
     <link rel="stylesheet" type="text/css"
@@ -15,17 +15,17 @@
 
   </head>
 
-  <body ng-app="app" ng-cloak>
+  <body ng-cloak>
 
     <section ng-view></section>
 
     <!-- TODO use cdn on production version-->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <!--  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
-    <!-- uncomment when working offline
+     uncomment when working offline-->
     <script src="node_modules/angular/angular.js"></script>
     <script src="node_modules/angular-route/angular-route.min.js"></script>
-    -->
+
 
     <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
@@ -37,9 +37,9 @@
     <script src="app/src/app.module.js"></script>
 
     <!--## mocks module -->
-    <script src="app/src/mocks/mocks.module.js"></script>
-      <script src="app/src/mocks/mocks.config.js"></script>
-      <script src="app/src/mocks/mocks.controller.js"></script>
+    <script src="app/src/messages/messages.module.js"></script>
+      <script src="app/src/messages/messages.config.js"></script>
+      <script src="app/src/messages/messages.controller.js"></script>
 
     <!--## auth module -->
     <script src="app/src/auth/auth.module.js"></script>
