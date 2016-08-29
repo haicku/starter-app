@@ -7,11 +7,8 @@
       'ngRoute',
 
       // Third party modules.
-      'firebase',
 
       // Custom modules.
-      'app.messages',
-      'app.auth',
       'app.core'
     ])
     .config(configure)
